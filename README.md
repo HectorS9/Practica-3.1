@@ -45,4 +45,19 @@ el a.append(" mundo") agrega mundo a la cadena "a" haciendo que sea "Hola mundo"
 el b.delete(0, 5) elimina los caracteres de "Hola mundo" 1,2,3,4
 
 
+       VARIABLES                  OBJETOS
+       ─────────      ──────────────────
+      │    a    │ ── │ StringBuilder    │
+       ─────────     │ contenido:       │
+                     │ " mundo"         │
+                      ──────────────────
+        ─────────           | 
+       │    b    │ ─────────|
+        ─────────       
+                        
 
+       ─────────      ──────────────────
+      │    c    │ ── │ StringBuilder    │
+       ─────────     │ contenido:       │
+                     │ "Hola"           │
+                      ──────────────────
